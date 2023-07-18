@@ -3,4 +3,22 @@ body {
   background-color: black;
   color: white;
 }
+p {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-right: 250px;
+  margin-left: 180px;
+}
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 14px;
+}
+
 <link rel="stylesheet" href="styles.css">
