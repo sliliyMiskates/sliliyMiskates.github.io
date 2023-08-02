@@ -80,57 +80,20 @@ h3 a:link,
 h3 a:visited {
   color: #a40f71;
 }
-#main img {
-  border: 0 none;
-  max-width: 100%;
-}
-
-a.hash-link {
-  padding-left: 7px;
-}
-a.hash-link:link,
-a.hash-link:visited {
-  opacity: 15%;
-}
-a.hash-link:hover,
-a.hash-link:active {
-  opacity: 100%;
-  text-decoration: none;
-}
-
-a.emoji-link:hover,
-a.emoji-link:active {
-  text-decoration: none;
-}
-
-/*
- * HEADERS H1, H2, ..., H5
- */
 
 h1 {
-  display: block;
-  font-weight: normal;
-  letter-spacing: 1px;
-  font-size: 20px;
   color: #00ffff;
-  font-weight: 600;
   font-family: "Roboto Slab", serif;
 }
 h2 {
   color: #00ffd2;
-  font-size: 20px;
-  font-weight: 600;
-  padding-top: 6px;
   font-family: "Roboto Slab", serif;
 }
 h3 {
   color: #450060;
-  font-size: 18px;
-  font-weight: 600;
   font-family: "Roboto Slab", serif;
 }
 #main {
-  padding: 5px;
   border: 1px solid #2e8b57;
   border-radius: 11px;
   moz-border-radius: 11px;
@@ -144,7 +107,6 @@ h3 {
   background: none repeat scroll 0 0;
   clear: both;
   font-family: "Roboto Slab", serif;
-  font-size: 25px;
   line-height: 28px;
   overflow: auto;
   vertical-align: middle;
@@ -159,22 +121,16 @@ h3 {
   -moz-border-radius: 11px;
   -webkit-border-radius: 11px;
   margin-top: 5px;
-  padding-left: 12px;
-}
-#header a:hover {
-  text-decoration: none;
 }
 
 #sitetitle {
   text-align: left;
-  font-size: 30px;
   position: relative;
   top: 10px;
   left: 3px;
   margin: 0;
   color: #ff6600; /* reddish, for head */
   line-height: 2.4;
-  font-weight: 500;
   font-family: "Noto Serif TC", sans-serif;
 }
 
@@ -183,72 +139,16 @@ h3 {
   margin-left: 16px;
 }
 
-#side {
-  border: 1px solid #6a5acd;
-  border-radius: 11px;
-  -moz-border-radius: 11px;
-  -webkit-border-radius: 11px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  background-color: #afeeee;
-  /* light blue background for side */
-  line-height: 20px;
-  padding: 12px;
-  margin-top: 12px;
-}
-
-/* Brighten side box on hover */
-#side {
-  opacity: 0.6;
-}
-#side:hover {
-  opacity: 1;
-}
-#side h4,
-#side h5,
-#side h6 {
-  font-family: "PT Sans", sans-serif;
-}
-#side h4 {
-  font-weight: normal;
-  font-size: 16px;
-}
-#side h5 {
-  font-weight: normal;
-  font-size: 14px;
-  font-style: italic;
-}
-#side h4 strong,
-#side h5 strong {
-  font-style: normal;
-  color: #7d0081;
-}
-#navtitle {
-  color: blue;
-  font-weight: 700;
-  font-size: 25px;
-  margin-left: 15px;
-  margin-right: 15px;
-  float: left;
-}
-/* ENTRY AND ENTRY WRAP */
-
 div.entry {
   border-bottom: 1px dashed #cccccc;
   margin-top: 16px;
   overflow: hidden;
-  padding-bottom: 16px;
 }
 div.entrywrap {
   background-color: #dedede;
   border: 1px solid black;
   margin: 8px;
   overflow: auto;
-  padding-top: 12px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 16px;
   height: 99%;
   border-radius: 7px;
   -moz-border-radius: 7px;
