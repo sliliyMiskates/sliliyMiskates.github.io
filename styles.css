@@ -23,12 +23,18 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 */
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
 
 body {
   font-family: "Mate", serif;
   background-color: #192c55;
   color: #191f31;
-  max-width: 1000px; /* Don't overwhelm large displays */
+  max-width: 800px; /* Don't overwhelm large displays */
   margin: 0 auto;
   padding: 0;
   display: block;
