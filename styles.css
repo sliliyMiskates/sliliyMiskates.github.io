@@ -111,7 +111,7 @@ h1 {
   display: block;
   font-weight: normal;
   letter-spacing: 1px;
-  font-size: 25px;
+  font-size: 20px;
   color: #00ffff;
   font-weight: 600;
   font-family: "Roboto Slab", serif;
@@ -167,7 +167,7 @@ h3 {
 
 #sitetitle {
   text-align: left;
-  font-size: 80px;
+  font-size: 30px;
   position: relative;
   top: 10px;
   left: 3px;
@@ -227,7 +227,7 @@ h3 {
 #navtitle {
   color: blue;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 25px;
   margin-left: 15px;
   margin-right: 15px;
   float: left;
