@@ -2,15 +2,6 @@
 
 v_Enhance's CSS Stylesheet
 Theme Name: SIMPLE-53544
-Last edited 21 Feb 2023
-
-To use the fonts specified in this stylesheet,
-add the following lines to your HTML preamble:
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,700;1,400&family=Mate&family=Noto+Serif+TC:wght@500&family=PT+Sans&family=Roboto+Slab:wght@400;500;600&display=swap" rel="stylesheet">
-
 Copyright (c) 2023 Evan Chen under MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -35,7 +26,7 @@ SOFTWARE.
 
 body {
   font-family: "Mate", serif;
-  background-color: #192c55; /* It's #5368C1 on KARL */
+  background-color: #192c55;
   color: #f0f0f0;
   max-width: 1000px; /* Don't overwhelm large displays */
   margin: 0 auto;
@@ -135,26 +126,6 @@ h3 {
   font-weight: 600;
   font-family: "Roboto Slab", serif;
 }
-h4 {
-  margin-top: 6px;
-  margin-bottom: 4px;
-  font-size: 18px;
-  font-weight: 600;
-}
-h5,
-h6 {
-  margin-top: 4px;
-  margin-bottom: 2px;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-/*
- * ID'ed elements
- * #header, #main, #side
- * #email_box
- */
-
 #main {
   padding: 5px;
   border: 1px solid #2e8b57;
@@ -250,22 +221,6 @@ h6 {
   font-style: normal;
   color: #7d0081;
 }
-
-#email_box {
-  margin-top: 3px;
-  background-color: #87ceeb;
-  border-radius: 9px;
-  -moz-border-radius: 9px;
-  -webkit-border-radius: 9px;
-  border: 2px solid #48d1cc;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  font-size: 80%;
-  width: 100%;
-}
-
 #navtitle {
   color: blue;
   font-weight: 700;
@@ -336,8 +291,5 @@ a:link.btn-dark,
 a:visited.btn-dark {
   color: #fff;
 }
-
-/* vim: expandtab
- */
 
 <link rel="stylesheet" href="styles.css">
