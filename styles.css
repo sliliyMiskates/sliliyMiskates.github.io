@@ -34,7 +34,7 @@ body {
   font-family: "Mate", serif;
   background-color: #f6f6f6; /* It's #5368C1 on KARL */
   color: #121212;
-  max-width: 800px; /* Don't overwhelm large displays */
+  max-width: 600px; /* Don't overwhelm large displays */
   margin: 0 auto;
   padding: 0;
   display: block;
